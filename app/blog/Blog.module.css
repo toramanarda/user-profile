@@ -1,0 +1,46 @@
+.container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.userList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.userCard {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.userCard:hover {
+  transform: scale(1.02);
+}
+
+.userName {
+  font-weight: bold;
+  color: #0070f3;
+}
+
+.detailLink {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.detailLink:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "user-profile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.13"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toramanarda/user-profile.git"
+  },
+  "author": "Arda Toraman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toramanarda/user-profile/issues"
+  },
+  "homepage": "https://github.com/toramanarda/user-profile#readme"
+}
